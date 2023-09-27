@@ -22,7 +22,6 @@ A modern (and portable) approach to inflating view counts in Youtube - using [Pu
  1. Install [Docker Engine](https://docs.docker.com/engine/install/)
  2. Install [Docker Compose](https://docs.docker.com/compose/install/)
  3. Clone the repo (or download it).
- 4. Copy the video urls to `urls.txt` file (**Note**: A line may contain a single URL only)
 
 ## Build & Run Steps
 
