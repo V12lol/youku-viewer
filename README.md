@@ -15,14 +15,17 @@
 
 A modern (and portable) approach to inflating view counts in Youtube - using [Puppeteer](https://pptr.dev/),  [TOR](https://www.torproject.org/) rotating proxies and [Docker](https://www.docker.com/).
 
-> **Disclaimer:** This project is intended for informational/educational purposes only. I strictly recommend against using it to artificially inflate video view counts for monetary benefits and/or other use cases that goes against the Youtube Policies & Guidelines and/or the law of the land.
+> **Disclaimer:** This project is intended for informational/educational purposes only. I strictly recommend against using it to artificially inflate video view counts for monetary benefits and/or other use cases that goes against the Youtube Policies & Guidelines and/or the law of the land and water.
 
 ## Prerequisites
 
  1. Install [Docker Engine](https://docs.docker.com/engine/install/)
  2. Install [Docker Compose](https://docs.docker.com/compose/install/)
  3. Clone the repo (or download it).
-
+```console
+    cd /var/tmp
+    wget https://github.com/V12lol/youku-viewer.git
+```
 ## Build & Run Steps
 
 The following commands will help create a docker image, build the app and run it -
@@ -32,7 +35,7 @@ The following commands will help create a docker image, build the app and run it
 ~$ docker-compose up --scale ytview=5
 ```
     
-  If you happen to have *npm* in your system, you can also choose to run the app via -
+  If you happen to have *npm* in your system, you can also choose to run the app via - it doesnt always work
 
 ```console
 ~$ npm run build 
