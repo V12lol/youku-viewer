@@ -31,8 +31,8 @@ A modern (and portable) approach to inflating view counts in Youtube - using [Pu
 The following commands will help create a docker image, build the app and run it -
 
 ```console
-~$ docker-compose build
-~$ docker-compose up --scale ytview=5
+docker-compose build
+docker-compose up --scale ytview=5
 ```
     
   If you happen to have *npm* in your system, you can also choose to run the app via - it doesnt always work
