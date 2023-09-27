@@ -24,7 +24,7 @@ A modern (and portable) approach to inflating view counts in Youtube - using [Pu
  3. Clone the repo (or download it).
 ```console
     cd /var/tmp
-    wget https://github.com/V12lol/youku-viewer.git
+    git clone https://github.com/V12lol/youku-viewer
 ```
 ## Build & Run Steps
 
